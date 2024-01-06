@@ -1,0 +1,36 @@
+{
+  "name": "backend-express",
+  "version": "1.0.0",
+  "description": "none",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1",
+    "dev": "npx nodemon ./src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apriyono992/Backend-Express.git"
+  },
+  "keywords": [
+    "none"
+  ],
+  "author": "apri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/apriyono992/Backend-Express/issues"
+  },
+  "homepage": "https://github.com/apriyono992/Backend-Express#readme",
+  "dependencies": {
+    "@prisma/client": "^5.7.1",
+    "@types/http-errors": "^2.0.4",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.10.6",
+    "nodemon": "^3.0.2",
+    "prisma": "^5.7.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
